@@ -27,33 +27,48 @@ This repository contains an API built using Fastify and MongoDB for a simple soc
 ## Installation
 
 - Clone the repository
-  \`\`\`bash
+  ```bash
   git clone https://github.com/biswojit65/LDP-Project-2.git
   cd LDP-Project-2
-  \`\`\`
+  ```
 - Install dependencies using pnpm
-  \`\`\`bash
+  ```bash
   pnpm install
-  \`\`\`
+  ```
 - Set up the database
   Setup mongodb database and connect it to the application using mongoose.
 
 ## Usage
 
 - Start the server
-  \`\`\`bash
+  ```bash
   pnpm start
-  \`\`\`
+  ```
 - API Documentation
   You can use tools like Postman/VS Code Thunder Client to interact with the API endpoints listed below.
 
 ## Endpoints
 
-- **Create a User**: \`http://{{host}}:{{port}}/auth/register\`
-- **Login a User**: \`http://{{host}}:{{port}}/auth/login\`
-- **Create a Post**: \`http://{{host}}:{{port}}/auth/post\`
-- **Liking a Post**: \`http://{{host}}:{{port}}/auth/like\`
-- **Commenting on a Post**: \`http://{{host}}:{{port}}/auth/comment\`
+- **Create a User**:
+  ```bash
+  http://{{host}}:{{port}}/auth/register
+  ```
+- **Login a User**:
+  ```bash
+  http://{{host}}:{{port}}/auth/login
+  ```
+- **Create a Post**:
+  ```bash
+  http://{{host}}:{{port}}/auth/post
+  ```
+- **Liking a Post**:
+  ```bash
+  http://{{host}}:{{port}}/auth/like
+  ```
+- **Commenting on a Post**:
+  ```bash
+  http://{{host}}:{{port}}/auth/comment
+  ```
 
 ## License
 
