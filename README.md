@@ -35,7 +35,7 @@ This repository contains an API built using Fastify and MongoDB for a simple soc
   ```bash
   pnpm install
   ```
-- Set up the database
+- Set up the database :
   Setup mongodb database and connect it to the application using mongoose.
 
 ## Usage
